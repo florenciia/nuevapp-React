@@ -7,11 +7,13 @@
     height: 7rem;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 }
 .countN{
     margin-top: 0.5rem;
     margin-bottom: -0.2rem;
     font-size: 0.9rem;
+    text-align: center;
 }
 
 .btnn{
@@ -20,9 +22,10 @@
     font-size: 0.8rem;
     width: 1.5rem;
     height: 1.5rem;
+    margin-top: 1rem;
     margin-right: 0.3rem;
     margin-left: 0.3rem;
-    margin-bottom: -2rem;
+    margin-bottom: 1rem;
 }
 
 .btn-add{
@@ -31,4 +34,7 @@
     height: 1.5rem;
     color: white;
     font-size: 0.8rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }

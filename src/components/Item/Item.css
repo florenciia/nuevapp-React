@@ -2,26 +2,39 @@
     background-color: black;
     border: 2px solid black;
     border-radius: 25%;
-    width: 30rem;
-    height: 17em;
-    margin: 1rem;
-    padding: 2rem;
+    width: 20rem;
+    height: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    padding: 1rem;
     color: white;
 }
 .id{
     font-size: 0.8rem;
     font-weight: normal;
+    text-align: center;
 }
 
 .titulo{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-top: 1rem;
     font-weight: normal;
     text-decoration: transparent;
+    text-align: center;
+}
+.imgg{
+    width: 13rem;
+    height: 15rem;
+    border-radius: 30%;
+}
+.img-div{
+    text-align: center;
 }
 .precio{
     font-size: 1.5rem;
     font-weight: bold;
+    text-align: center;
 }
 
 .btn-add{
@@ -31,4 +44,17 @@
     color: white;
     font-size: 0.8rem;
     margin-top: -3rem;
+    text-align: center;
+}
+.btn-details{
+    background-color: #693668;
+    width: 8rem;
+    height: 1.5rem;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.btn-div{
+    text-align: center;
+    margin: 1rem;
 }
