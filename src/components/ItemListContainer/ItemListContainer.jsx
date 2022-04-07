@@ -2,9 +2,7 @@ import React, {useEffect, useState} from 'react';
 import ItemList from '../ItemList/ItemList';
 import {traerPerfumes} from '../PerfumesDatos';
 import {useParams} from 'react-router-dom';
-
 import './ItemListContainer.css';
-
 
 export default function ItemListContainer ({greeting}) {
 
@@ -31,13 +29,21 @@ export default function ItemListContainer ({greeting}) {
 
   
   return (
+
     <div className='text'>
+    
       {loading ? (
-          <h1 className="inicio">{greeting="Bienvenidos a Sensations.Perfumes"}</h1>
+        <h1 className="inicio">{greeting="Bienvenidos a Sensations.Perfumes"}</h1>
+          
+          
       ) : (
+        <>
         <ItemList perfumes={perfumes}/>
+        </>
+
       )}
       
+  
     </div>
   )
 }

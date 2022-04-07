@@ -1,0 +1,46 @@
+
+.muestraPerfumes{
+    background-color: turquoise;
+    border: 10px solid black;
+    color: black;
+    padding: 1rem;
+    width: 40rem;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+ }
+ .titulo{
+    font-size: 2rem;
+    font-weight: normal;
+    text-align: center;
+    text-decoration: underline;
+ }
+ .precio{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+ }
+ 
+ .descrip{
+    font-size: 1rem;
+    justify-content: center;
+ }
+ 
+ .volver{
+    font-size: 1rem;
+    text-align: center;
+    width: 10rem;
+    height: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    color: white;
+    margin-top: 3rem;
+ } 
+ .btn-add-final{
+    background-color: black;
+     color: white;
+     font-size: 1rem;
+     margin-right: 1rem;
+ }

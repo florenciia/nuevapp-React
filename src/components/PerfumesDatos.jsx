@@ -118,5 +118,5 @@ export const perfumesGeneral = [
 export const traerPerfumes = new Promise((resolve, reject) => {
     setTimeout(() => {
         resolve(perfumesGeneral);
-    }, 5000);
+    }, 3000);
 });
