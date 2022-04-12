@@ -1,44 +1,53 @@
+.muestraPerfumesDetail{
+   background-color: black;
+   border: 5px solid crimson;
+   border-radius: 10%;
+   width: 20rem;
+   height: 33rem;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 1rem;
+   color: white;
+ }
 
-.muestraPerfumes{
-    background-color: turquoise;
-    border: 10px solid black;
-    color: black;
-    padding: 1rem;
-    width: 40rem;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10%;
- }
- .titulo{
-    font-size: 2rem;
-    font-weight: normal;
+.titulo{
+   font-size: 1.5rem;
+   font-weight: normal;
+   text-decoration: transparent;
+   text-align: center;
+}
+.imgg{
+   width: 15rem;
+   height: 15rem;
+   border-radius: 20%;
+   margin: 1rem;
+}
+.img-div{
+   text-align: center;
+}
+.precio{
+   font-size: 1rem;
+   font-weight: bold;
+   text-align: center;
+}
+
+.volver{
+    font-size: 0.7rem;
     text-align: center;
-    text-decoration: underline;
- }
- .precio{
-    font-size: 1.5rem;
-    font-weight: bold;
-    text-align: center;
- }
- 
- .descrip{
-    font-size: 1rem;
-    justify-content: center;
- }
- 
- .volver{
-    font-size: 1rem;
-    text-align: center;
-    width: 10rem;
+    width: 8rem;
     height: 2rem;
     margin-left: auto;
     margin-right: auto;
-    background-color: black;
+    background-color: transparent;
+    border-color: crimson;
     color: white;
-    margin-top: 3rem;
- } 
- .btn-add-final{
+} 
+
+.btn-volver{
+   text-align: center;
+}
+
+.btn-add-final{
     background-color: black;
      color: white;
      font-size: 1rem;

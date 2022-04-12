@@ -13,7 +13,8 @@ const ItemDetail = ({titulo,precio,img}) => {
     }
 
     return (
-        <div className='muestraServicio'>
+        <div className='muestraPerfumesDetail'>
+            {/* <p className='id'> id: {id} </p>  */}
             <h1 className='titulo'> {titulo} </h1>
              <p className='precio'> Precio: {precio} </p>
              <div className='img-div'>
@@ -32,10 +33,13 @@ const ItemDetail = ({titulo,precio,img}) => {
             ): <> </>}
             
                 <br/>
-
-                <Link to={`/`}>
-                    <button className='volver'> Todos los servicios </button>
-                </Link>
+                <div className='btn-volver'>
+                    <Link to={`/`}>
+                        <br/>
+                        <button className='volver'> Todos los perfumes </button>
+                    </Link>
+                </div>
+                
         </div>
          
     )

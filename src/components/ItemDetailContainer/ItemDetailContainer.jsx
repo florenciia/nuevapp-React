@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from "react";
 import ItemDetail from '../ItemDetail/ItemDetail';
+import './ItemDetailContainer.css';
 import { useParams } from "react-router";
 import { traerPerfumes } from "../PerfumesDatos";
 
 function ItemDetailContainer(){
     const [perfumess, setPerfumess] = useState([]);
-    const [cargando, setCargando] = useState(true);
+    // const [cargando, setCargando] = useState(true);
     const {id} = useParams();
     console.log(id);
 
@@ -20,14 +21,14 @@ function ItemDetailContainer(){
             console.log(error);
         })
         .finally(() =>{
-            setCargando(false);
+            // setCargando(false);
         })
     },[])
 
     return(
     
             <div>
-                {cargando ? ( <h1> Cargando...</h1>)
+                {perfumess.length <= 0 ? ( <h1 className="loadingg"> Cargando perfume elegido...</h1>)
                     :
                     (
                         <>

@@ -23,10 +23,10 @@ const NavBar = () => {
                         <Link to={`/`} className="nav-link active navi ">Perfumes</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link active navi ">Contact</Link>
+                        <Link to={`contact`} className="nav-link active navi ">Contact</Link>
                     </li>
                     <li className="nav-item dropdown">
-                        <Link className="nav-link navi dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <Link to={`/`} className="nav-link navi dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Categories </Link>
 
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -36,7 +36,7 @@ const NavBar = () => {
                     </ul>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link navi">My cart</Link>
+                        <Link to={`/`} className="nav-link navi">My cart</Link>
                     </li>       
                     <li>
                         <CartWidget />     

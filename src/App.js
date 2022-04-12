@@ -3,6 +3,7 @@ import ItemDetailContainer from './components/ItemDetailContainer/ItemDetailCont
 import ItemListContainer from './components/ItemListContainer/ItemListContainer';
 import NavBar from './components/NavBar/NavBar';
 import {BrowserRouter, Routes, Route} from 'react-router-dom'
+// import  Contact  from './components/Contact/Contact.jsx';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
               <Route exact path="/" element={ <ItemListContainer/>}  />
               <Route exact path="/item/:id" element={ <ItemDetailContainer /> }  />
               <Route exact path="/category/:tipo" element={ <ItemListContainer /> }  />
+              {/* <Route exact path="/contact" element={ <Contact/> }  /> */}
+
       {/* <ItemListContainer  greeting='Esta es una prop provisoria del Item List ItemListContainer ' />
        */}
       {/* <ItemDetailContainer /> */}
