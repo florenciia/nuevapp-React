@@ -5,25 +5,29 @@ export const perfumesGeneral = [
         img: require('../images/ch.jpg'),
         precio:'$25',
         tipo: 'woman',
+        stock: 15,
     },    
     {   id:2,
         titulo:'Shakira',
         img: require('../images/shakira.jpg'),
         precio:'$25',
         tipo: 'woman',
+        stock: 15,
     },
     {   id:3,
         titulo:'Givenchy',
         img: require('../images/givenchy.jpg'),
         precio:'$25',
         tipo: 'woman',
+        stock: 15,
     },
     {
         id: 4,
         titulo: '212 VIP',
         img: require('../images/212-VIP-woman.jpg'),
         precio: '$35',
-        tipo: 'woman',        
+        tipo: 'woman',
+        stock: 15,        
     },
     {
         id: 5,
@@ -31,21 +35,24 @@ export const perfumesGeneral = [
         img: require('../images/Amor-Amor.jpg'),
         precio: '$35',
         descripcion: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-        tipo: 'woman',        
+        tipo: 'woman',
+        stock: 15,        
     },
     {
         id: 6,
         titulo: 'Kenzo Flower',
         img: require('../images/kenzo-flower.jpg'),
         precio: '$35',
-        tipo: 'woman',        
+        tipo: 'woman',
+        stock: 15,        
     },
     {
         id: 7,
         titulo: 'Tommy Hilfiger',
         img: require('../images/tommy-hilfiger-man.jpg'),
         precio: '$35',
-        tipo: 'man',        
+        tipo: 'man',
+        stock: 15,        
     },
     {
         id: 8,
@@ -53,6 +60,7 @@ export const perfumesGeneral = [
         img: require('../images/212-VIP-men.jpg'),
         precio: '$40',
         tipo: 'man',
+        stock: 15,
     },
     {
         id: 9,
@@ -60,6 +68,7 @@ export const perfumesGeneral = [
         img: require('../images/antonio-banderas.jpg'),
         precio: '$40',
         tipo: 'man',
+        stock: 15,
     },
     {
         id: 10,
@@ -67,6 +76,7 @@ export const perfumesGeneral = [
         img: require('../images/InvictusLegend.jpg'),
         precio: '$40',
         tipo: 'man',
+        stock: 15,
     },
     {
         id: 11,
@@ -74,6 +84,7 @@ export const perfumesGeneral = [
         img: require('../images/Dior.jpg'),
         precio: '$40',
         tipo: 'man',
+        stock: 15,
     },
     {
         id: 12,
@@ -81,6 +92,7 @@ export const perfumesGeneral = [
         img: require('../images/mujercitas.jpeg'),
         precio: '$40',
         tipo: 'niños',
+        stock: 15,
     },
     {
         id: 13,
@@ -88,6 +100,7 @@ export const perfumesGeneral = [
         img: require('../images/paco.jpeg'),
         precio: '$40',
         tipo: 'niños',
+        stock: 15,
     },
     {
         id: 14,
@@ -95,6 +108,7 @@ export const perfumesGeneral = [
         img: require('../images/paula.jpeg'),
         precio: '$40',
         tipo: 'niños',
+        stock: 15,
     },
     {
         id: 15,
@@ -102,6 +116,7 @@ export const perfumesGeneral = [
         img: require('../images/little-paris.webp'),
         precio: '$40',
         tipo: 'niños',
+        stock: 15,
     },
     {
         id: 16,
@@ -109,6 +124,7 @@ export const perfumesGeneral = [
         img: require('../images/kevingston-kids.webp'),
         precio: '$40',
         tipo: 'niños',
+        stock: 15,
     }
 ];
 

@@ -1,38 +1,43 @@
-import React, { useState } from 'react';
+import React, { useContext } from 'react';
 import './ItemDetail.css';
 import { Link } from 'react-router-dom';
 import {ItemCount} from '../ItemCount/ItemCount';
+import { CartContext } from '../CartContext/CartContext'
 
 
-const ItemDetail = ({titulo,precio,img}) => {
+const ItemDetail = ({titulo,precio,img,stock}) => {
     
-    const {addItemsToCart, setAddItemsToCart} = useState([]);
+    const {addItemsToCart, productsCount} = useContext(CartContext);
 
-    const agregarAlCarrito = (e) => {
-        addItemsToCart({titulo,precio,img},e)
+    const onAdd = (e) => {
+        addItemsToCart({titulo,precio,img,stock},e)
     }
 
     return (
         <div className='muestraPerfumesDetail'>
             {/* <p className='id'> id: {id} </p>  */}
             <h1 className='titulo'> {titulo} </h1>
-             <p className='precio'> Precio: {precio} </p>
              <div className='img-div'>
                <img className='imgg' src={img} alt='images'/>
              </div>
+
+            <p className='precio'> Precio: {precio} </p>
             
-           <ItemCount initial={0} stock={20} onAdd={(e) => agregarAlCarrito(e)}/> 
+            <p className='stock'> Stock: {stock}</p>
+            
+           <ItemCount initial={0} stock={15} onAdd={(e) => onAdd(e)}/> 
 
 
-            {setAddItemsToCart > 0 ? (
+            {productsCount > 0 ? (
                 <>
-                        <Link> 
-                            <button className='btn-add-final'> Finlizar Compra</button> 
+                        <Link to={`/CarritoFinal`}> 
+                            <button className='alineacion btn-add-final'> Finlizar Compra </button> 
                         </Link>
                 </>
             ): <> </>}
             
-                <br/>
+         
+
                 <div className='btn-volver'>
                     <Link to={`/`}>
                         <br/>

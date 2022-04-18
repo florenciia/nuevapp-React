@@ -2,8 +2,8 @@
     background-color: black;
     border: 2px solid crimson;
     border-radius: 10%;
-    width: 15rem;
-    height: 32rem;
+    width: 18rem;
+    height: 27rem;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3rem;
@@ -36,6 +36,10 @@
     font-size: 1rem;
     font-weight: bold;
     text-align: center;
+}
+.stock{
+    text-align: center;
+    font-size: 1rem;
 }
 
 .btn-add{

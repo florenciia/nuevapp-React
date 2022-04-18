@@ -15,8 +15,9 @@ export default function ItemListContainer ({greeting}) {
     useEffect(() => {
     traerPerfumes.then(resultado => {
         if(tipo){
-            let perfumess = resultado.filter(elemento => elemento.tipo === tipo);
-            setPerfumes(perfumess);
+            // let perfumess = resultado.filter(elemento => elemento.tipo === tipo);
+            // setPerfumes(perfumess);
+            setPerfumes(resultado.filter(perfume => perfume.tipo == tipo));
         } else {
             setPerfumes(resultado);
         }
