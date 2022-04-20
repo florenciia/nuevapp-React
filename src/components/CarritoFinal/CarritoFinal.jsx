@@ -13,15 +13,12 @@ return (
             
                         return(
                             <div className="compraFinal"> 
-                            <h1 className="titulo"> Compra final </h1>
-                            {/* <img src={cart} alt="img" /> */}
-                            <h2>{prod.titulo}</h2>
-                            <h3>{prod.quantity}</h3>
-                            <button className="btn-add" onClick={(prod)=>removeItems(prod)}> Eliminar producto</button>
-                           
-                            </div>
-
-                            
+                                <h1 className="titulo"> Compra final </h1>
+                                {/* <img src={cart} alt="img" /> */}
+                                <h2>{prod.titulo}</h2>
+                                <h3>{prod.quantity}</h3>
+                                    <button className="btn-add" onClick={(prod)=>removeItems(prod)}> Eliminar producto</button>
+                            </div>                            
                         )
                 
                     }

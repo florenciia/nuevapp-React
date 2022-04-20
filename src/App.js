@@ -6,6 +6,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import { CartProvider } from './components/CartContext/CartContext.jsx';
 import { CarritoFinal } from './components/CarritoFinal/CarritoFinal';
 import CartWidget from './components/CartWidget/CartWidget';
+import {Cart} from './components/Cart/Cart';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
                 <Route exact path="/category/:tipo" element={ <ItemListContainer /> }  />
                 <Route exact path="/CarritoFinal" element={ <CartWidget /> }  />
                 <Route exact path="/CarritoFinal" element={ <CarritoFinal /> }  />
+                <Route exact path="/Cart" element={ <Cart/> }  />
                 
 
         {/* <ItemListContainer  greeting='Esta es una prop provisoria del Item List ItemListContainer ' />

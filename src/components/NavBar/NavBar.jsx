@@ -44,7 +44,7 @@ const NavBar = () => {
                     </li>        */}
 
                     <li className='cartt navi'>
-                        <Link to={'/CarritoFinal'}> <CartWidget count={productsCount} />  </Link>    
+                        <Link to={'/Cart'}> <CartWidget count={productsCount} />  </Link>    
                     </li>
                          
                 </ul>

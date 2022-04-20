@@ -30,7 +30,7 @@ const ItemDetail = ({titulo,precio,img,stock}) => {
 
             {productsCount > 0 ? (
                 <>
-                        <Link to={`/CarritoFinal`}> 
+                        <Link to={`/Cart`}> 
                             <button className='alineacion btn-add-final'> Finlizar Compra </button> 
                         </Link>
                 </>
