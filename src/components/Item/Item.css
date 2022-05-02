@@ -11,7 +11,7 @@
     color: white;
 }
 .id{
-    font-size: 0.7rem;
+    font-size: 0rem;
     color: transparent;
     font-weight: normal;
     text-align: center;
@@ -19,7 +19,7 @@
 
 .titulo{
     font-size: 1rem;
-    margin-top: 1rem;
+    padding-bottom: 0.5rem;
     font-weight: normal;
     text-decoration: transparent;
     text-align: center;
@@ -36,10 +36,12 @@
     font-size: 1rem;
     font-weight: bold;
     text-align: center;
+    padding: 0.5rem;
 }
 .stock{
     text-align: center;
     font-size: 1rem;
+    padding: 0.5rem;
 }
 
 .btn-add{
@@ -53,14 +55,14 @@
 }
 .btn-details{
     background-color: #693668;
-    width: 7rem;
-    height: 1.5rem;
+    width: 9rem;
+    height: 2rem;
     color: white;
-    font-size: 0.7rem;
+    font-size: 1rem;
 }
 
 .btn-div{
     text-align: center;
-    margin: 1rem;
+    padding: 0.5rem;
 }
 

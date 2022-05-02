@@ -4,6 +4,7 @@ import './NavBar.css';
 import { Link } from 'react-router-dom';
 import { CartContext } from '../CartContext/CartContext';
 
+
 const NavBar = () => {
 
     const {productsCount} = useContext(CartContext);
@@ -27,16 +28,16 @@ const NavBar = () => {
                         <Link to={`/`} className="nav-link active navi ">Perfumes</Link>
                     </li>
                     <li className="nav-item">
-                        <Link to={`contact`} className="nav-link active navi ">Contact</Link>
+                        <Link to={`/contact`} className="nav-link active navi "> Contact </Link>
                     </li>
                     <li className="nav-item dropdown">
                         <Link to={`/`} className="nav-link navi dropdown-toggle" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Categories </Link>
 
                     <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <li><Link to='category/niños' className="dropdown-item"> Kids</Link></li>
-                        <li><Link to='category/man' className="dropdown-item"> Men </Link></li>
-                        <li><Link to='category/woman' className="dropdown-item"> Woman</Link></li>
+                        <li><Link to='category/kids' className="dropdown-item"> Kids</Link></li>
+                        <li><Link to='category/men' className="dropdown-item"> Men </Link></li>
+                        <li><Link to='category/women' className="dropdown-item"> Woman</Link></li>
                     </ul>
                     </li>
                     {/* <li className="nav-item">
@@ -44,7 +45,7 @@ const NavBar = () => {
                     </li>        */}
 
                     <li className='cartt navi'>
-                        <Link to={'/Cart'}> <CartWidget count={productsCount} />  </Link>    
+                        <Link to={'/cart'}> <CartWidget count={productsCount} />  </Link>    
                     </li>
                          
                 </ul>

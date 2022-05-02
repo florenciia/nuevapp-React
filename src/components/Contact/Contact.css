@@ -1,4 +1,60 @@
+.contactoGeneral{
+    background-color: transparent;
+    border: 5px solid crimson;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
 .titleContact{
     font-size: 2rem;
     color: white;
+    padding: 2rem;
+}
+
+.textContact{
+    font-size: 1rem;
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+.input{
+    background-color: #693668;
+    color: white;
+    border: 2px solid crimson;
+    width: 30rem;
+    height: auto;
+}
+
+.check{
+    margin: 1.5rem;
+    border: 2px solid #693668;
+    padding: 2rem;
+    color: white;
+}
+
+.form-check{
+    margin-top: 0.5rem;
+}
+.form-check-input{
+    border: 4px solid #693668;
+    text-align: center;
+}
+
+.tamaño{
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0;
+}
+
+.btn-submit{
+    background-color: #693668;
+    width: 6rem;
+    height: auto;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+    margin: 1rem;
 }

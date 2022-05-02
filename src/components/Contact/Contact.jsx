@@ -1,43 +1,53 @@
 import React from 'react';
 import './Contact.css';
 
-export const Contact = () => {
+export default function Contact() {
   return (
-    <>
-        <h1 className='titleContact'>Contact us</h1>
+        <div className='contactoGeneral'>
 
-        <p className='textContact'> Name: </p>
-        <input type='text' placeholder='your name'> </input>
+            <h1 className='titleContact'>Contact us</h1>
 
-        <p className='textContact'> Email: </p>
-        <input type='text' placeholder='your email'> </input>
+            <p className='textContact'> Name: </p>
+            <input className='input' type='text' placeholder='Your name'/>
 
-        <p className='textContact'> Whatsapp</p>
-        <input type='text' placeholder='your telephone number'> </input>
+            <p className='textContact'> Email: </p>
+            <input className='input' type='text' placeholder='Your email'/>
 
-     
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault"/>
-                <label class="form-check-label" for="flexCheckDefault">
-                    Kids
-                </label>
+            <p className='textContact'> Whatsapp</p>
+            <input className='input' type='text' placeholder='Your telephone number'/>
+
+            <br/>
+            <br/>
+            <br/>
+            <p className='textContact'> More information about...</p>
+
+
+            <div className='check'>
+
+                <div className="form-check">
+                    <input className="form-check-input tamaño" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label className="form-check-label" for="flexCheckDefault"> Kids </label>
+                </div>
+          
+                <div className="form-check">
+                    <input className="form-check-input tamaño " type="checkbox" value="" id="flexCheckDefault"/>
+                        <label className="form-check-label" for="flexCheckDefault"> Women </label>
+                </div>
+
+                <div className="form-check">
+                    <input className="form-check-input tamaño" type="checkbox" value="" id="flexCheckDefault"/>
+                        <label className="form-check-label" for="flexCheckDefault"> Men </label>
+                </div>
+
+            </div>
+
+            <div>
+                <button class="btn-submit" type="submit">Send</button>
+            </div>
+
+
+
+           
         </div>
-        
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked/>
-                <label class="form-check-label" for="flexCheckChecked">
-                    Women
-                </label>
-        </div>
-        
-        <div class="form-check">
-            <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked/>
-                <label class="form-check-label" for="flexCheckChecked">
-                    Men
-                </label>
-        </div>
-
-    </>
-    
   );
 };

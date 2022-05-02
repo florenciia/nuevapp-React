@@ -15,13 +15,13 @@ const Item = ({titulo, img, precio, id, stock}) => {
                                   <img className='imgg' src={img} alt='images'/>
                                 </div>
                                 
-                                <p className='precio'> Precio: {precio} </p>
+                                <p className='precio'> Price: ${precio} </p>
 
                                 <p className='stock'> Stock: {stock} </p>
 
                                 <Link to={`/item/${id}`}>
                                   <div className='btn-div'>
-                                    <button className='btn-details'> Ver detalles </button>
+                                    <button className='btn-details'> More details </button>
                                   </div>
                                 </Link>                                
                                 
