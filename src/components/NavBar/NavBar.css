@@ -1,3 +1,12 @@
+.headerr{
+  background-color: crimson;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
+
 .title{
     font-size: 1.5rem;
     text-decoration: transparent;
@@ -12,13 +21,14 @@
 }
 
 .navbar .navi:hover{
-    border: 2px solid #FF3562;
+    border: 2px solid #002352;
     color: #ffffff;
     border-radius: 10px;
     text-align: center;
 }
 .dropdown-menu{
-  background-color: #1B1B3A;
+  background-color: #002352;
+  border: transparent;
   color: white;
   border: 2px solid white;
 }
@@ -34,11 +44,24 @@
 .btn-tog{
   border: 2px solid transparent;
   border-radius: 5px;
-  background-color: #FF3562;
+  background-color: #002352;
   width: 40px;
   height: 40px;
 }
 .cartt{
   width: 4rem;
   height: 4rem;
+}
+
+.logo{
+  width: 80px;
+  height: auto;
+  border: 2px solid black;
+  border-radius: 50%;
+  transition: 1s all;
+
+}
+
+.logo:hover{
+  transform: scale(1.1);
 }

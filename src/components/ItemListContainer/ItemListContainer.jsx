@@ -17,7 +17,7 @@ export default function ItemListContainer ({greeting}) {
         if(tipo){
             // let perfumess = resultado.filter(elemento => elemento.tipo === tipo);
             // setPerfumes(perfumess);
-            setPerfumes(resultado.filter(perfume => perfume.tipo == tipo));
+            setPerfumes(resultado.filter(perfume => perfume.tipo === tipo));
         } else {
             setPerfumes(resultado);
         }
@@ -31,7 +31,7 @@ export default function ItemListContainer ({greeting}) {
   
   return (
 
-    <div className='text'>
+    <div>
     
       {loading ? (
         <h1 className="inicio">{greeting="Bienvenidos a Sensations.Perfumes"}</h1>
@@ -39,7 +39,7 @@ export default function ItemListContainer ({greeting}) {
           
       ) : (
         <>
-        <ItemList perfumes={perfumes}/>
+          <ItemList perfumes={perfumes}/>
         </>
 
       )}
@@ -48,28 +48,3 @@ export default function ItemListContainer ({greeting}) {
     </div>
   )
 }
-
-/*
-    useEffect(() => {
-
-        const pago = new Promise((resolve, reject) => {
-            setTimeout(() => {
-                resolve('50')
-
-            }, 3000)
-            //reject(null)
-        })
-
-        console.log(pago);
-
-        pago.then((res) => {
-            console.log('gracias por pagar ' + res)
-        })
-        
-        console.log(pago)
-
-        //sigue....
-
-
-    }, [])
-*/

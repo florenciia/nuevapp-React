@@ -33,8 +33,6 @@ const ItemDetail = ({titulo,precio,img,stock}) => {
                 ( <Link to={'/cart'} className='alineacion'> <button className='btn-add-final'> Checkout </button> </Link> )
             }
             
-         
-
                 <div className='btn-volver'>
                     <Link to={`/`}>
                         <br/>

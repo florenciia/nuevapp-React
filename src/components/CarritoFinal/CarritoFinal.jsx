@@ -9,11 +9,11 @@ export const CarritoFinal = () =>{
 return (
     <>
 
-        {cartProducts.length === 0 ? (<h2 className="titulito">No hay productos agregados!</h2>) :(cartProducts.map((prod)=>{
+        {cartProducts.length === 0 ? (<h2 className="titulito">There are no products!</h2>) :(cartProducts.map((prod)=>{
             
                         return(
                             <div className="compraFinal"> 
-                                <h1 className="titulo"> Compra final </h1>
+                                <h1 className="titulo"> Check Out </h1>
                                 {/* <img src={cart} alt="img" /> */}
                                 <h2>{prod.titulo}</h2>
                                 <h3>{prod.quantity}</h3>
