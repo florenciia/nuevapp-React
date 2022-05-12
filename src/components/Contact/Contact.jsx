@@ -1,8 +1,11 @@
 import React from 'react';
 import './Contact.css';
+import logo from '../NavBar/logo.jpeg';
+import { Link } from 'react-router-dom';
 
 export default function Contact() {
   return (
+      <>
         <div className='contactoGeneral'>
 
             <h1 className='titleContact'>Contact us</h1>
@@ -91,11 +94,15 @@ export default function Contact() {
 
             <div>
                 <button class="btn-submit" type="submit">Send</button>
-            </div> */}
-
-
-
-           
+            </div> */} 
         </div>
+
+            <footer class="footer">
+                    <div className='caja2'>
+                    <Link to={`/`}> <img className="logo2" src={logo} alt='img-logo'/> </Link>
+                        <p className="text"> CopyRight Perfume.Sensations 2022</p>
+                    </div>
+            </footer>
+        </>
   );
 };

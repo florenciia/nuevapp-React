@@ -16,7 +16,7 @@ const NavBar = () => {
         <div className='caja'>
             <nav className="navbar navbar-expand-lg todo-el-nav">
                     <div className="container-fluid">
-                        <Link to={`/`} className="navbar-brand title">  <img className="logo" src={logo} alt="logo-perfume.sensations"/> Perfume Sensaciones </Link>
+                        <Link to={`/`} className="navbar-brand title">  <img className="logo" src={logo} alt="logo-perfume.sensations"/> Perfume.Sensations </Link>
                         
                         <button className="navbar-toggler btn-tog" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>

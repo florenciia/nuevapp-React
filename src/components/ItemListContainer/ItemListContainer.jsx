@@ -3,6 +3,8 @@ import ItemList from '../ItemList/ItemList';
 import {traerPerfumes} from '../PerfumesDatos';
 import {useParams} from 'react-router-dom';
 import './ItemListContainer.css';
+import logo from '../NavBar/logo.jpeg';
+import { Link } from 'react-router-dom';
 
 export default function ItemListContainer ({greeting}) {
 
@@ -44,6 +46,13 @@ export default function ItemListContainer ({greeting}) {
 
       )}
       
+
+      <footer class="footer">
+                    <div className='caja2'>
+                    <Link to={`/`}> <img className="logo2" src={logo} alt='img-logo'/> </Link>
+                        <p className="text"> CopyRight Perfume.Sensations 2022</p>
+                    </div>
+      </footer>
   
     </div>
   )

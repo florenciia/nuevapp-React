@@ -1,12 +1,12 @@
 .muestraPerfumesDetail{
    background-color: black;
-   border: 5px solid crimson;
+   border: 2px solid crimson;
    border-radius: 10%;
    width: 20rem;
    height: 33rem;
    margin-left: auto;
    margin-right: auto;
-   padding: 0rem;
+   padding: 10px;
    color: white;
  }
 
@@ -38,10 +38,10 @@
 }
 
 .volver{
-    font-size: 0.7rem;
+    font-size: 1rem;
     text-align: center;
-    width: 8rem;
-    height: 2rem;
+    width: 100px;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
     background-color: transparent;

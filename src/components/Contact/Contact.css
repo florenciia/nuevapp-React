@@ -5,6 +5,7 @@
     height: auto;
     text-align: center;
     margin: 0 auto;
+    margin-bottom: 15px;
 }
 
 .titleContact{
@@ -123,4 +124,34 @@ form label, form .quest{
     /* transform: scale(1.2) rotate(360deg); */
     /* transform: rotate(360deg); */
 
+}
+
+
+
+
+
+
+.footer{
+    background-color: crimson;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+}
+
+.caja2{
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
+.logo2{
+    width: 90px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.text{
+    color: white;
+    font-size: 13px;
 }

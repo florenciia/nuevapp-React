@@ -36,7 +36,7 @@ const ItemDetail = ({titulo,precio,img,stock}) => {
                 <div className='btn-volver'>
                     <Link to={`/`}>
                         <br/>
-                        <br/>
+                        
                         <button className='volver'> All perfumes </button>
                     </Link>
                 </div>
