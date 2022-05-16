@@ -5,30 +5,3 @@
     text-align: center;
     font-weight: bold;
 }
-
-
-
-
-.footer{
-    background-color: crimson;
-    width: 100%;
-    height: auto;
-}
-
-.caja2{
-    width: 100%;
-    position: relative;
-    margin: 0 auto;
-    text-align: center;
-}
-.logo2{
-    width: 90px;
-    height: auto;
-    border: 2px solid black;
-    border-radius: 50%;
-    margin-top: 15px;
-}
-.text{
-    color: white;
-    font-size: 13px;
-}

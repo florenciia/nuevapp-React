@@ -1,0 +1,23 @@
+.footer{
+    background-color: crimson;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    margin-top: 1rem;
+}
+
+.caja2{
+    margin: 0 auto;
+    text-align: center;
+}
+.logo2{
+    width: 90px;
+    height: auto;
+    border: 3px solid crimson;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.text{
+    color: white;
+    font-size: 13px;
+}

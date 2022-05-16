@@ -3,12 +3,14 @@
     border: 2px solid crimson;
     border-radius: 10%;
     width: 18rem;
-    height: 27rem;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 3rem;
-    padding: 10px;
+    margin-bottom: 2.5rem;
     color: white;
+}
+.muestraPerfume:hover{
+    border: 4px solid #693668;
 }
 .id{
     font-size: 0rem;
@@ -19,29 +21,30 @@
 
 .titulo{
     font-size: 1.5rem;
-    padding-bottom: 0.5rem;
     font-weight: normal;
     text-decoration: transparent;
     text-align: center;
 }
 .imgg{
-    width: 9rem;
-    height: 11rem;
-    border-radius: 20%;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 15%;
+    /* border: 1px solid crimson; */
 }
+
 .img-div{
     text-align: center;
 }
+
 .precio{
     font-size: 1rem;
     font-weight: bold;
     text-align: center;
-    padding: 0.5rem;
+    margin-top: 0.5rem;
 }
 .stock{
     text-align: center;
     font-size: 1rem;
-    padding: 0.5rem;
 }
 
 .btn-add{
@@ -55,14 +58,21 @@
 }
 .btn-details{
     background-color: #693668;
-    width: 9rem;
-    height: 2rem;
+    border: 2px solid black;
+    width: 8rem;
+    height: auto;
     color: white;
     font-size: 1rem;
+    margin: 20px auto;
+    transition: 1s all;
+    cursor: pointer;
+}
+.btn-details:hover{
+    transform: scale(1.1);
 }
 
 .btn-div{
     text-align: center;
-    padding: 0.5rem;
+
 }
 

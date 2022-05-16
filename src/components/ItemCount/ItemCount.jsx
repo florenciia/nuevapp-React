@@ -10,7 +10,7 @@ export const ItemCount = ({stock, initial, onAdd}) => {
             setCount(count + 1);    
         } 
         else{
-            alert('Límite de solicitud')
+            alert('Request limit')
         }
     }
 
@@ -19,7 +19,7 @@ export const ItemCount = ({stock, initial, onAdd}) => {
             setCount(count - 1);
          }
          else{
-             alert('Agregar producto')
+             alert('Add product')
          }
          
     }

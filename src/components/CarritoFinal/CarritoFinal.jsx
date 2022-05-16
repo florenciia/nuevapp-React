@@ -13,7 +13,7 @@ return (
             
                         return(
                             <div className="compraFinal"> 
-                                <h1 className="titulo"> Check Out </h1>
+                                <h1 className="titulito"> Check Out </h1>
                                 {/* <img src={cart} alt="img" /> */}
                                 <h2>{prod.titulo}</h2>
                                 <h3>{prod.quantity}</h3>

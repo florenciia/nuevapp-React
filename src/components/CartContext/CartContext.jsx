@@ -6,21 +6,11 @@ export const CartProvider = ({children}) => {
     
     const [CartProducts, setCartProducts] = useState([]);
 
-    const addItemsToCart = (item)=>{
-
-        if (CartProducts.some(product => product.id === item.id)) {
-
-        //     setCartProducts(CartProducts.map( product => product.id === item.id ?
-        //         {...product, quantity: product.quantity + item.quantity} :
-        //         product));
-           
-        
-        // }else{
-            
-            setCartProducts([...CartProducts,{...item}]);
-            
+    const addItemsToCart = (product)=>{
+      CartProducts.some(item => item.id === product.id)
+          ? setCartProducts(CartProducts.map(item => item.id === product.id ? {...item, quantity: item.quantity + product.quantity} : item))
+          : setCartProducts([...CartProducts, product]);
     }
-}
 
     const removeItems = (item) =>{
 

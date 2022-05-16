@@ -5,20 +5,20 @@ import {ItemCount} from '../ItemCount/ItemCount';
 import { CartContext } from '../CartContext/CartContext'
 
 
-const ItemDetail = ({titulo,precio,img,stock}) => {
+const ItemDetail = ({nombre,precio,img,stock,id}) => {
     
-    const {addItemsToCart, productsCount} = useContext(CartContext);
+    const {addItemsToCart} = useContext(CartContext);
     const [count, setCount] = useState(0);
 
     const onAdd = (quantity) => {
-        addItemsToCart({titulo,precio,img,stock,quantity})
+        addItemsToCart({nombre,precio,img,stock,quantity,id})
         setCount(count + quantity);
     }
 
     return (
         <div className='muestraPerfumesDetail'>
             {/* <p className='id'> id: {id} </p>  */}
-            <h1 className='titulo'> {titulo} </h1>
+            <h1 className='titulo'> {nombre} </h1>
              <div className='img-div'>
                <img className='imgg' src={img} alt='images'/>
              </div>
@@ -35,9 +35,7 @@ const ItemDetail = ({titulo,precio,img,stock}) => {
             
                 <div className='btn-volver'>
                     <Link to={`/`}>
-                        <br/>
-                        
-                        <button className='volver'> All perfumes </button>
+                        <button className='volverDetail'> All perfumes </button>
                     </Link>
                 </div>
                 

@@ -1,6 +1,11 @@
 .compraFinal {
-    background-color: black;
+    /* background-color: black; */
+    width: 500px;
     color: white;
+    border: 4px solid crimson;
+}
+.compraFinal:hover{
+    border: 4px solid blueviolet;
 }
 .titulito{
     color: white;

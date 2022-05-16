@@ -1,12 +1,13 @@
 .muestraPerfumesDetail{
    background-color: black;
-   border: 2px solid crimson;
+   border: 5px solid crimson;
    border-radius: 10%;
-   width: 20rem;
-   height: 33rem;
+   width: 22rem;
+   height: auto;
+   margin-top: 10rem;
    margin-left: auto;
    margin-right: auto;
-   padding: 10px;
+   padding: 0rem;
    color: white;
  }
 
@@ -15,7 +16,7 @@
    font-weight: normal;
    text-decoration: transparent;
    text-align: center;
-   padding: 0.5rem;
+   padding: 1rem;
 }
 .imgg{
    width: 15rem;
@@ -32,21 +33,18 @@
    text-align: center;
 }
 .stock{
-   padding: 0.5rem;
    font-size: 1rem;
-   margin-top: -1rem;;
 }
 
-.volver{
-    font-size: 1rem;
-    text-align: center;
-    width: 100px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: transparent;
-    border-color: crimson;
-    color: white;
+.volverDetail{
+   font-size: 1rem;
+   text-align: center;
+   width: 10rem;
+   height: auto;
+   margin: 25px auto;
+   background-color: transparent;
+   border-color: crimson;
+   color: white;
 } 
 
 .btn-volver{
@@ -62,6 +60,7 @@
    font-size: 0.8rem;
    text-align: center;
    margin: 0.5rem;
+   border: none;;
 }
 
 .alineacion{

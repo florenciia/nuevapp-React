@@ -64,7 +64,7 @@ export const perfumesGeneral = [
     },
     {
         id: 9,
-        titulo: 'The secret templation edt Antonio Banderas',
+        titulo: 'The secret templation',
         img: require('../images/antonio-banderas.jpg'),
         precio: 40,
         tipo: 'men',
@@ -72,7 +72,7 @@ export const perfumesGeneral = [
     },
     {
         id: 10,
-        titulo: ' Invictus Legend Paco Rabanne',
+        titulo: ' Invictus Legend',
         img: require('../images/InvictusLegend.jpg'),
         precio: 40,
         tipo: 'men',
@@ -124,6 +124,38 @@ export const perfumesGeneral = [
         img: require('../images/kevingston-kids.webp'),
         precio: 40,
         tipo: 'kids',
+        stock: 15,
+    },
+    {
+        id: 17,
+        titulo: 'Acqua Di Colbert',
+        img: require('../images/acquaDiColbert.webp'),
+        precio: 40,
+        tipo: 'men',
+        stock: 15,
+    },
+    {
+        id: 18,
+        titulo: 'Narciso',
+        img: require('../images/narciso.webp'),
+        precio: 40,
+        tipo: 'women',
+        stock: 15,
+    },
+    {
+        id: 19,
+        titulo: 'Armani',
+        img: require('../images/armani.webp'),
+        precio: 40,
+        tipo: 'women',
+        stock: 15,
+    },
+    {
+        id: 20,
+        titulo: 'Chance Chanel',
+        img: require('../images/chanceChanel.webp'),
+        precio: 40,
+        tipo: 'women',
         stock: 15,
     }
 ];

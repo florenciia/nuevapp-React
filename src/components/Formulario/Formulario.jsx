@@ -1,64 +1,37 @@
-// import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
+import db from '../../utils/firebaseConfig';
+import {collection, doc, increment, setDoc, updateDoc} from 'firebase/firestore';
 
-// export default function Formulario() {
+export default function Formulario({createOrder}) {
 
-//     const [name, setName] = useState('');
-//     const [email, setEmail] = useState('');
-//     const [phone, setPhone] = useState('');
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [phone, setPhone] = useState('');
 
-// function terminarCompra() {
+    return (
+        <>
+        <input
+            type={'text'}
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+        />
 
-// //example buyer
+        <input
+            type={'email'}
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+        />
 
-//     let buyer = {
+        <input
+            type={'tel'}
+            value={phone}
+            onChange={(e) => setPhone(e.target.value)}
+        />
 
-//         buyer: { name, phone, email },
-//         items: [{ id, title, price },{ id, title, price }], //meter carrito adentro
-//         total: 100,
+          <button className='btn-add' onClick={() => createOrder(name, email, phone)}> Terminar Compra</button>
 
-//     }; 
+    </>
 
-//     alert('quiere terminar la compra ' + name + email + phone);
+    );
 
-//     }
-
-//     useEffect(() => {
-//     console.log(name, email, phone);
-//     }, [name, email, phone]);
-
-//     return (
-//         <>
-//         <input
-//             type={'text'}
-//             value={name}
-//             onChange={(e) = {
-//                 setName(e.currentTarget.value);
-//             }}
-//         />
-
-//         <input
-//             type={'text'}
-//             value={name}
-//             onChange={(e) = {
-//                 setEmail(e.currentTarget.value);
-//             }}
-//         />
-
-//         <input
-//             type={'text'}
-//             value={name}
-//             onChange={(e) = {
-//                 setPhone(e.currentTarget.value);
-//             }}
-//         />
-
-//         <button
-            
-//         />
-//         { terminarCompra()}
-
-//     </>
-
-//     );
-
-// };
+};

@@ -40,7 +40,7 @@ const NavBar = () => {
                             <ul className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><Link to='category/kids' className="dropdown-item"> Kids</Link></li>
                                 <li><Link to='category/men' className="dropdown-item"> Men </Link></li>
-                                <li><Link to='category/women' className="dropdown-item"> Woman</Link></li>
+                                <li><Link to='category/women' className="dropdown-item"> Women</Link></li>
                             </ul>
                             </li>
                             {/* <li className="nav-item">
