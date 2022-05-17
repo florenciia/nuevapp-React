@@ -4,7 +4,6 @@ import {CartContext} from '../CartContext/CartContext';
 import {Link} from 'react-router-dom';
 import {collection, doc, setDoc} from 'firebase/firestore';
 import db from '../../utils/firebaseConfig';
-import logo from '../NavBar/logo.jpeg'
 import { Footer } from '../Footer/Footer';
 
 export const Cart = () => {
@@ -74,9 +73,9 @@ export const Cart = () => {
                         <img className='img1' src={prod.img} alt="img"/>
                         <p> Count: {prod.quantity}</p>
                         <p> Price for unit: ${prod.precio}</p>
-                        {/* <p> Precio por total: ${total}</p> */}
-                        <h2> Total: ${listaDeTotales.reduce((acc, b) => acc + b, 0)}</h2>
-                        <button className="btn-add-final1" onClick={() => removeItems(prod.id)}> Eliminar producto</button>
+                        <p> Total price: ${total}</p>
+                       
+                        <button className="btn-add-final1" onClick={() => removeItems(prod.id)}> Delete product </button>
                       </div>
                   )
 
@@ -89,7 +88,11 @@ export const Cart = () => {
             <input className='input' type="text" placeholder=" name" value={name} onChange={(e) => setName(e.target.value)} required/>
             <input className='input' type="text" placeholder=" email@email.com" value={email} onChange={(e) => setEmail(e.target.value)} required/>
             <input className='input' type="text" placeholder=" (011) XXXX XXXX" value={phone} onChange={(e) => setPhone(e.target.value)} required/>
-            <br/>
+          
+        
+            <h2 className='totalAPagar'> Total to pay:  <br/>${listaDeTotales.reduce((acc, b) => acc + b, 0)}</h2>
+    
+
             <button className="btn-add-finish" onClick={() => createOrder()}> Finish buying </button>
             <Link to={`/`}>
                   <button className="btn-add-finish"> Add more </button>
@@ -97,6 +100,9 @@ export const Cart = () => {
         </div>
        
         
+        <br/>
+        <br/>
+        <br/>
         <br/>
         <br/>
         <br/>

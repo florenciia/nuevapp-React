@@ -12,10 +12,9 @@ export const CartProvider = ({children}) => {
           : setCartProducts([...CartProducts, product]);
     }
 
-    const removeItems = (item) =>{
+    const removeItems = (id) =>{
 
-        const removed = CartProducts.filter(prod => prod.id === item.id)
-         setCartProducts(removed)
+         setCartProducts(CartProducts.filter(prod => prod.id !== id))
         
      }
 
