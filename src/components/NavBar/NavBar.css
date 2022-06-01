@@ -1,8 +1,12 @@
 .headerr{
   background-color: crimson;
-  width: 100%;
+  width: auto;
   height: auto;
   margin-bottom: 40px;
+}
+
+.caja{
+  width: auto;
 }
 
 .title{
@@ -60,6 +64,7 @@
 .cartt{
   width: 4em;
   height: 4rem;
+  margin-bottom: 0;
 }
 
 .logo{
@@ -73,4 +78,95 @@
 
 .logo:hover{
   transform: scale(1.1);
+}
+
+
+
+
+
+
+
+@media screen and (max-width:375px) {
+  .headerr{
+    background-color: crimson;
+    width: auto;
+    height: auto;
+    margin-bottom: 40px;
+  }
+  
+  .caja{
+    width: auto;
+  }
+  
+  .title{
+      font-size: 1.5rem;
+      text-decoration: transparent;
+      color: #ffffff;
+      padding: 5px;
+  }
+  .title:hover{
+    color: white;
+  }
+  
+  .navbar .navi{
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-top: 1px;
+  }
+  
+  .navbar .navi:hover{
+      border: 2px solid #002352;
+      padding: 5px;
+      color: #ffffff;
+      border-radius: 10px;
+      text-align: center;
+  }
+  .dropdown-menu{
+    background-color: #002352;
+    border: transparent;
+    color: white;
+    border: 2px solid white;
+  }
+  .dropdown-item{
+    color: #ffffff;
+  }
+  .dropdown-item:hover{
+    background-color: #FF3562;
+    text-align: center;
+    color: #ffffff;
+  
+  }
+  .btn-tog{
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background-color: #002352;
+    width: 35px;
+    height: 35px;
+    transition: 1s all;
+    cursor: pointer;
+  }
+  .btn-tog:hover{
+    background-color: #002352;
+    transform: rotate(360deg);
+  }
+  
+  .cartt{
+    width: 2em;
+    height: 2rem;
+    margin-bottom: 4px;
+  }
+  
+  .logo{
+    width: 50px;
+    height: auto;
+    border: 2px solid black;
+    border-radius: 50%;
+    transition: 1s all;
+  
+  }
+  
+  .logo:hover{
+    transform: scale(1.1);
+  }
+  
 }

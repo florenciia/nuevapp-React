@@ -79,3 +79,92 @@ form label, form .quest{
     /* transform: rotate(360deg); */
 
 }
+
+
+
+
+
+@media screen and (max-width:375px) {
+    .contactoGeneral{
+        background-color: transparent;
+        border: 5px solid crimson;
+        width: auto;
+        height: auto;
+        margin: 0 5px;
+    }
+    
+    .titleContact{
+        font-size: 30px;
+        color: white;
+        padding-top: 1rem;
+        text-decoration: underline;
+        text-align: center;
+    }
+    
+    
+    form{
+        margin: 40px auto;
+        color: white;
+        text-align: center;
+    
+    }
+    
+    form label{
+        display: block;
+        font-size: 18px;
+        margin: 20px 0 10px;
+    }
+    
+    .quest{
+        font-size: 1rem;
+    }
+    
+    form label, form .quest{
+        display: block;
+    }
+    
+    .input-padron{
+        padding: 5px 10px;
+        width: 80%;
+    }
+    
+    .input-padron:hover{
+        border: 2.5px solid crimson;
+       
+    }
+    
+    .checkboxx{
+        margin: 30px 0 10px 0;
+        text-align: center;
+    }
+    
+    .fieldset{
+        border: transparent;
+    }
+    
+    .option{
+        background-color: #693668;
+        border: transparent;
+    }
+    
+    .enviar{
+        width: 42%;
+        padding: 5px 5px;
+        font-size: 15px;
+        font-weight: bold;
+        background-color: #693668;
+        border: transparent;
+        border-radius: 5px;
+        transition: 1s all;
+        cursor: pointer;
+    }
+    .enviar:hover{
+        background-color: crimson;
+        /* para modificar el tamaño */
+        transform: scale(1.1);
+        /* transform: scale(1.2) rotate(360deg); */
+        /* transform: rotate(360deg); */
+    
+    }
+
+}

@@ -123,3 +123,143 @@
     background-color: #693668;
     color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:375px) {
+
+    .compraFinal1{
+        background-color: black;
+        text-align: center;
+        display: inline-block;
+        margin: 1rem;
+        padding: 1rem;
+        width: 90%;
+        height: auto;
+        color: white;
+        border: 3px solid crimson;   
+    }
+    
+    .compraFinal1:hover{
+        border: 4px solid blueviolet;
+    }
+    
+    .noHayProd {
+        color: red;
+        text-align: center;
+        margin: 40px auto;
+    }
+    
+    .titulo1{
+        font-size: 2rem;
+        text-decoration: underline;
+    }
+    
+    .img1{
+        width: 12rem;
+        height: 12rem;
+        padding: 1rem;
+        /* border: 2px solid crimson; */
+        border-radius: 25%;
+        margin: 1rem;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .nombre{
+        color: white;
+    }
+    
+    .volverElegir{
+        font-size: 1.5rem;
+        text-align: center;
+        width: 17rem;
+        height: auto;
+        margin: 20px auto;
+        background-color: transparent;
+        border-color: crimson;
+        color: white;
+        padding: 0.5rem;
+    } 
+    .volverElegir:hover{
+        background-color: crimson;
+        color: white;
+    }
+    
+    .volverA{
+        font-size: 1rem;
+        text-align: center;
+        width: 15rem;
+        height: auto;
+        margin: 5px 5px;
+        background-color: transparent;
+        border-color: crimson;
+        color: white;
+        padding: 0.5rem;
+    }
+    .volverA:hover{
+        background-color: crimson;
+        color: white;
+    }
+    
+    /* .btn-volver{
+       text-align: center;
+       margin-top: -1.5rem;
+    } */
+    
+    .inputGroup{
+        text-align: center;
+    }
+    
+    .input{
+        margin: 10px 5px;
+        background-color: lightgray;
+        border: 2px solid crimson;
+        color: black;
+        padding: 0.2rem;
+        text-transform: capitalize;
+    }
+    
+    .totalAPagar{
+        color: white;
+        border: 2px solid crimson;
+        font-size: 1rem;
+        width: 300px;
+        height: auto;
+        margin: 10px auto;
+    }
+    
+    .btn-add-final1{
+        background-color: #693668;
+        color: white;
+        border: none;
+        font-size: 1rem;
+        width: 8rem;
+        height: auto;
+        margin-top: 0;
+    }
+    
+    .btn-add-finish{
+        background-color: crimson;
+        color: white;
+        border: none;
+        width: 8rem;
+        height: 3rem;
+        text-transform: uppercase;
+        margin-bottom: 0;
+        margin-right: 5px;
+    }
+    
+    .btn-add-finish:hover{
+        background-color: #693668;
+        color: white;
+    }
+    
+}

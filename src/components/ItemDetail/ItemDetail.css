@@ -66,3 +66,80 @@
 .alineacion{
    margin-left: 5.5rem;
 }
+
+
+
+
+
+@media screen and (max-width:375px) {
+.muestraPerfumesDetail{
+   background-color: black;
+   border: 5px solid crimson;
+   border-radius: 10%;
+   width: auto;
+   height: auto;
+   margin-top: 1rem;
+   margin-left: 10px;
+   margin-right: 10px;
+   padding: 0rem;
+   color: white;
+ }
+
+.titulo{
+   font-size: 1.5rem;
+   font-weight: normal;
+   text-decoration: transparent;
+   text-align: center;
+   padding: 1rem;
+}
+.imgg{
+   width: 15rem;
+   height: 15rem;
+   border-radius: 20%;
+   margin: 0rem;
+}
+.img-div{
+   text-align: center;
+}
+.precio{
+   font-size: 1rem;
+   font-weight: bold;
+   text-align: center;
+}
+.stock{
+   font-size: 1rem;
+}
+
+.volverDetail{
+   font-size: 1rem;
+   text-align: center;
+   width: 10rem;
+   height: auto;
+   margin: 25px auto;
+   background-color: transparent;
+   border-color: crimson;
+   color: white;
+} 
+
+.btn-volver{
+   text-align: center;
+   /* margin-top: -1.5rem; */
+}
+
+.btn-add-final{
+   background-color: #693668;
+   width: 8rem;
+   height: 1.5rem;
+   color: white;
+   font-size: 0.8rem;
+   text-align: center;
+   margin: 0.5rem;
+   border: none;;
+}
+
+.alineacion{
+   margin-left: 5.5rem;
+}
+
+
+}

@@ -1,7 +1,22 @@
 .inicio{
     margin-top: 15%;
+    margin-bottom: 12%;
     color: crimson;
     font-size: 50px;
     text-align: center;
     font-weight: bold;
+}
+
+
+
+
+@media screen and (max-width:375px) {
+    .inicio{
+        margin-top: 45%;
+        margin-bottom: 35%;
+        color: crimson;
+        font-size: 24px;
+        text-align: center;
+        font-weight: bold;
+    }
 }
